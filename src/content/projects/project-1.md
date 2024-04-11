@@ -1,8 +1,8 @@
 ---
 inProgress: false
-title: Project title
-description: Project description
+title: Flame Pizza App
+description: A food delivery application that allow the user to select and order delicious food all from the comfort of their home.
 img_alt: project image alt text
-link: https://github.com/veranikabarel?tab=repositories
-tags: ['React', 'CSS', 'Typescript']
+link: https://flame-pizza.vercel.app/
+tags: ["NextJS", "Tailwind", "Typescript"]
 ---

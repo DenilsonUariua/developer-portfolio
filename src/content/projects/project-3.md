@@ -1,8 +1,8 @@
 ---
 inProgress: false
-title: Project title
-description: Project description
-img_alt: project image alt text
-link: https://github.com/veranikabarel?tab=repositories
+title: CarHub   
+description: A car catalog site that allow users to search and rent out cars. Users can click the car to see more details about the car.
+img_alt: car hub image
+link: https://vercel.com/denilsonuariuas-projects/car-catelog-website
 tags: ['React', 'CSS', 'Typescript']
 ---

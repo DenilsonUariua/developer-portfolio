@@ -1,8 +1,8 @@
 ---
 inProgress: false
-title: Project title
-description: Project description
-img_alt: project image alt text
-link: https://github.com/veranikabarel?tab=repositories
-tags: ['React', 'CSS', 'Typescript']
+title: Osona Plants
+description: A plant blog site with a neo brutalist style that really captures the users imagination. Users can find local plants on this site.
+img_alt: osona plants
+link: https://osona-plants.vercel.app/
+tags: ['Astro', 'Tailwind', 'Typescript']
 ---
