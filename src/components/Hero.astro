@@ -8,7 +8,7 @@ import { Image } from "astro:assets";
   data-testid="hero"
   class="flex h-screen flex-col-reverse items-center justify-center text-center lg:flex-row"
 >
-  <div class="mb-10 flex flex-col items-center lg:mb-0 lg:w-1/2">
+  <div class="mb-10 flex flex-col items-center lg:mb-0 lg:w-1/2 animate-fade-up">
     <div>
       <h1
         class="mb-10 font-monospace text-3xl text-black dark:text-white lg:text-5xl"
@@ -18,20 +18,20 @@ import { Image } from "astro:assets";
       </h1>
     </div>
 
-    <div class="mb-10">
+    <div class="mb-10 animate-fade-up delay-1000 duration-300">
       <a href={"#about"} aria-label="link to project">
         <Button
           style={"primary"}
           size={"lg"}
-          class={"flex hover:!bg-purple"}
-          name="learn more">Learn more</Button
+          class={"flex hover:!bg-purple duration-300 transition-colors"}
+          name="learn more">See what makes me tick!</Button
         >
       </a>
     </div>
   </div>
   <div
     data-testid="hero-img"
-    class="mb-10 flex w-1/2 items-center justify-center"
+    class="mb-10 flex w-1/2 items-center justify-center animate-fade-left"
   >
     <Image
       src={heroImage as any}
