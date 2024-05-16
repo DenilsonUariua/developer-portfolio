@@ -5,7 +5,7 @@ import { Image } from "astro:assets";
 
 interface Props {
   url?: string;
-  imageUrl: string
+  imageUrl: string;
   alt?: string;
   title?: string;
   description: string;
@@ -37,6 +37,7 @@ const {
           width={400}
           height={400}
           loading="eager"
+          class={"object-cover"}
         />
       </div>
       <div class="mt-1 p-2">
